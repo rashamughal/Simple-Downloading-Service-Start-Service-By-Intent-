@@ -35,8 +35,11 @@ java
 Copy code
 
 Intent ServiceIntent = new Intent(MainActivity.this, MyService1.class);
+
 String Url = editText.getText().toString();
+
 ServiceIntent.putExtra("url", Url);
+
 startService(ServiceIntent);
 
 This code in MainActivity starts the service and passes the URL from the EditText as an extra.
