@@ -60,10 +60,6 @@ request.setDestinationInExternalPublicDir(Environment.DIRECTORY_DOWNLOADS, "down
 downloadManager.enqueue(request);
 The downloadFile method in MyService1 manages the download using the DownloadManager.
 
-Screenshots
-
-Add screenshots of your app here to demonstrate the UI and functionality.
-
 Installation
 
 Clone this repository.
