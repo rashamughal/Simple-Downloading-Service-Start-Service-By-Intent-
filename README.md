@@ -17,7 +17,9 @@ Android SDK version 21 or higher
 Project Structure
 
 MainActivity.java: Provides the UI for inputting a URL and starting the download service.
+
 MyService1.java: A background service that handles the download of the file from the provided URL.
+
 activity_main.xml: Layout file containing the EditText and button for user interaction.
 
 How It Works
